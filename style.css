@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #app {
+  height: 100vh;
+}
+
+body {
+  background: url('assets/bg.jpg') no-repeat center center/cover;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+
+  padding: 0 15%;
+}
+
+main {
+  max-width: 23.75rem;
+
+  
+  font-family: 'Outfit', sans-serif;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+}
+
+main h1 {
+  color: #D6D6F2;
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+
+main p {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 140%;
+  color: #D6D6F2;
+  
+}
+
+.button-wrapper{
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.btn {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background: #151557;
+  border-radius: 62.4375rem;
+
+
+  color: #E2E2F5;
+  font-family: Outfit;
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #212187;
+}
